@@ -6,8 +6,8 @@
 // Set the 'NODE_ENV' variable
 process.env.NODE_ENV = process.env.NODE_ENV || 'development';
 // Load the module dependencies
-var mongoose = require('./config/mongoose'),
-    express = require('./config/express');
+var mongoose = require('./cross-care-backend/config/mongoose'),
+    express = require('./cross-care-backend/config/express');
 // Create a new Mongoose connection instance
 var db = mongoose();
 // Create a new Express application instance
